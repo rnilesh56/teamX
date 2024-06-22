@@ -38,3 +38,15 @@ div:hover {
 div i:hover {
   color: greenyellow;
 }
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+button a {
+  text-decoration: none;
+  position: absolute;
+  right: 30px;
+  font-size: 20px;
+  color: black;
+}
