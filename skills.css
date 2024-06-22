@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-section {
+  height: 690px;
+  background-image: url("skilss-back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+h1 {
+  font-size: 100px;
+  color: white;
+  padding: 100px 50px 50px 50px;
+  text-align: center;
+}
+div {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px gray;
+  transition: all 2s ease-in-out;
+}
+div i {
+  color: white;
+  font-size: 200px;
+  transition: all 2s ease-in-out;
+}
+div:hover {
+  transform: scale(1.1, 1.1);
+}
+div i:hover {
+  color: black;
+}
