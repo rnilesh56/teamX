@@ -5,14 +5,14 @@
 }
 .main-section {
   height: 690px;
-  background-image: url("skilss-back.jpg");
+  background-image: url("back.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
 h1 {
   font-size: 100px;
-  color: white;
+  color: rgba(0, 0, 0, 0.475);
   padding: 100px 50px 50px 50px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ div {
   transition: all 2s ease-in-out;
 }
 div i {
-  color: white;
+  color: green;
   font-size: 200px;
   transition: all 2s ease-in-out;
 }
@@ -36,5 +36,5 @@ div:hover {
   transform: scale(1.1, 1.1);
 }
 div i:hover {
-  color: black;
+  color: greenyellow;
 }
