@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.form{
+    height: 800px;
+    width: 600px;
+    background-image:url("./Anime.avif");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+
+input{
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.radio{
+    height: 45px;
+    width: 410px;
+    display: flex;
+    color: gray;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.radio input{
+    height: 30px;
+    width: 18px;
+}
+.radioone{
+    height: 50px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.radiotwo{
+    height: 50px;
+    width: 340px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.label1{
+    font-size: 20px;
+}
+.address{
+    height: 200px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    color: gray;
+    background-color: white;
+    border-radius: 10px;
+}
+.addressone{
+    height: 200px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.addresstwo{
+    height: 170px;
+    width: 270px;
+    border: none;
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.btn{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn1 button{
+    height: 50px;
+    width: 150px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+.btn2 button{
+    height: 50px;
+    width: 150px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+.btn1 button:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    border: 1px solid blue;
+    color: black;
+}
+.btn2 button:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    border: 1px solid red;
+    color: black;
+}
