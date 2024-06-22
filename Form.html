@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Form.css">
+</head>
+<body>
+  
+  <div class="main">
+    <section>
+      <form class="form">
+        <div>
+          <h1>SignUp</h1>
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Enter your first name"/>
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Enter your last name"/>
+        </div>
+        
+        <div class="radio">
+          <div class="radioone"><label htmlFor="" class="label1">Gender</label></div>
+          <div class="radiotwo">
+            <label htmlFor="" >Male</label>
+            <input type="radio" name="gender"  />
+            <label htmlFor="" >Female</label>
+            <input type="radio" name="gender"/>
+          </div>
+        </div>
+        <div>
+          <input type="number" maxLength={2} placeholder="Enter your age" />
+        </div>
+        <div>
+          <input type="tel" placeholder="Enter your mobile number"  maxLength={10} />
+        </div>
+        <div>
+            <input type="email" placeholder="Enter your email"/>
+        </div>
+        <div class="address">
+          <label class="addressone">Address</label>
+          <textarea rows={8} cols={20}  class="addresstwo" ></textarea>
+          </div>
+          <div class="btn">
+          <div class="btn1">
+            <button type="submit">Submit</button>
+          </div>
+          <div class="btn2">
+            <button type="reset">Reset</button>
+          </div>
+          </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
